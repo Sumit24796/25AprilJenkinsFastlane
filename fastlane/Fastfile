@@ -23,9 +23,7 @@ unlock_keychain( # In addition, the keychain can be selected as a default keycha
   path: "/Users/susingh/Library/Keychains/login.keychain-db ",
   password: "dminc@1178",
   set_default: true
-)
-    )
-
+))
   end
 end
 platform :android do
