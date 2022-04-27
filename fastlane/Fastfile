@@ -15,7 +15,7 @@
 
 platform :ios do
   unlock_keychain(
-  path: "/Users/susingh/Library/Keychains/",
+  path: "login",
   password: "dminc@1178",
   set_default: true
 )
