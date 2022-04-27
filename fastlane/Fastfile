@@ -14,16 +14,16 @@
 # update_fastlane
 
 platform :ios do
-  unlock_keychain(
-  path: "login",
-  password: "dminc@1178",
-  set_default: true
-)
   lane :example do
     souyuz(
       platform: "ios",
       build_configuration: "Release",
       plist_path: "/Users/susingh/Documents/Projects/TestProjectJenkins/TestFastlane25April/TestFastlane25April.iOS/Info.plist",
+),
+    unlock_keychain(
+  path: "login",
+  password: "dminc@1178",
+  set_default: true
 )
   end
 end
