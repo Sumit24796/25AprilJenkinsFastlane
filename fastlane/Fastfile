@@ -19,7 +19,7 @@ platform :ios do
       platform: "ios",
       build_configuration: "Release",
       plist_path: "/Users/susingh/Documents/Projects/TestProjectJenkins/TestFastlane25April/TestFastlane25April.iOS/Info.plist",
-),
+)
     unlock_keychain(
   path: "login",
   password: "dminc@1178",
