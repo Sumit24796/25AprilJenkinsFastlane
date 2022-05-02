@@ -9,7 +9,7 @@ namespace TestFastlane25April
         public App()
         {
             InitializeComponent();
-            //test
+            
             MainPage = new MainPage();
         }
 
