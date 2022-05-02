@@ -22,7 +22,7 @@ platform :ios do
 )
    testfairy(
   api_key: "9d738ee04953c0216d70c7d107b2a3b651f9d37c",
-  ipa: "./TestFastlane25April.iOS.ipa",
+  ipa: "/Users/susingh/.jenkins/workspace/JenkinsFastlaneSetUp25April/TestFastlane25April.iOS/bin/iPhone/Release/TestFastlane25April.iOS.ipa",
 )
   end
 end
