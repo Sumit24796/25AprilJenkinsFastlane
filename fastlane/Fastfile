@@ -35,5 +35,9 @@ platform :android do
       keystore_alias: "androiddemocert",
       keystore_password: "123456"
     )
+    testfairy(
+  api_key: "9d738ee04953c0216d70c7d107b2a3b651f9d37c",
+  apk: "/Users/susingh/.jenkins/workspace/JenkinsFastlaneSetUp25April/TestFastlane25April.Android/bin/Release/com.companyname.testfastlane25april-Signed.apk",
+ )
   end
 end
