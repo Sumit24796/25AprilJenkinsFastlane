@@ -20,10 +20,9 @@ platform :ios do
       build_configuration: "Release",
       plist_path: "/Users/susingh/Documents/Projects/TestProjectJenkins/TestFastlane25April/TestFastlane25April.iOS/Info.plist",
 )
-    unlock_keychain(
-  path: "login",
-  password: "dminc@1178",
-  set_default: true
+   testfairy(
+  api_key: "9d738ee04953c0216d70c7d107b2a3b651f9d37c",
+  ipa: "./TestFastlane25April.iOS.ipa",
 )
   end
 end
