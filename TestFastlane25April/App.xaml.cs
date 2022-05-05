@@ -8,8 +8,8 @@ namespace TestFastlane25April
     {
         public App()
         {
-            //build
             InitializeComponent();
+            //test
             MainPage = new MainPage();
         }
 
